@@ -11,7 +11,7 @@ Ingestão de arquivos CSV na plataforma Google Cloud Plataform.
 
 Na solução foi utilizado o software NiFi para fazer a ingestão dos dados(.csv) na Google Cloud Plataform. O dataflow busca os arquivos
 .csv de um determinado diretório e insere no banco que esta na GCP. Após a inserção do dados na nuvem, eles são excluidos do diretório para que
-não ocorra de serem dados duplicados, caso haja a necessidade de uma nova ingestão de dados basta inserir o arquivo no diretório.
+não ocorra de serem dados duplicados. Caso haja a necessidade de uma nova ingestão de dados basta inserir o arquivo no diretório.
 
 Foi utilizado o BigQuery para a execução dos scripts SQL, pois a plataforma GCP conta com essa solução que é muito eficiente e possui integração com diversas ferramentas de análise, como o Power BI que foi utilizado para análise dos dados.
 
